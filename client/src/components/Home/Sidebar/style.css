@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: “Poppins”, sans-serif;
+   }
+   body{
+    min-height: 100vh;
+    background: white;
+    color: white;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .side-bar{
+    background: #1b1a1b;
+    backdrop-filter: blur(15px);
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+}
+#title{
+    text-align: center;
+    background: #323d4b;
+    height: 150px;
+}
+#title h2{
+    font-size: 20px;
+    padding-top: 40px;
+    color: #920c92;
+}
+#title h1{
+    color: #3d920c;
+}
+
+.menu{
+    width: 100%;
+    
+}
+
+.menu .item{
+    position: relative;
+    cursor: pointer;
+    
+}
+.menu .item .sub-menu{
+    text-align: center;
+}
+.menu .item a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+.menu .item i{
+    margin-right: 15px;
+}
+.item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.item .sub-menu{
+    background: #38414d;
+    display: none;
+}
+.side-bar .menu .item a:hover{
+    background: #22a1c5;
+    transition: 0.3s ease;
+   }

@@ -1,0 +1,93 @@
+
+.header{
+    height: 80px;
+    background-color: #413838;
+    text-align: center;
+    border: solid 2px rgb(148, 148, 129);
+    
+   }
+   .header .btn1{
+    height: 40px;
+    width: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    background-color:#bbacac;
+    
+   }
+   .header .fbtn{
+    margin-left: 250px;
+   }
+   .header .fbtn .pbtn{
+    margin-right: 5px;
+   }
+   .header .btn1:hover{
+    background-color: #5f6e55;
+    color: #d4cece;
+    transition: .5s;
+   }
+   
+   .header .btn2{
+    float: right;
+    margin-right: 30px;
+   }
+   .header h1{
+      float:right;
+      margin: 20px ;
+      font-size: 25px;
+      margin-top: 25px;
+   }
+.header h1 .ubtn{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+    .slider {
+    position: absolute;
+    top: 40px;
+    left: 550px;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    padding-left: 25px;
+    background: #bbacac;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 15px 40px #7E6D5766;
+    }
+    .slider p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Open Sans;
+    padding-left: 10px;
+    color: black;
+    }
+    .slider #rangeName
+    {
+        padding-right: 15px ;
+    }
+    .slider input[type="range"] {
+    -webkit-appearance:none !important;
+    width: 200px;
+    height: 2px;
+    background: black;
+    border: none;
+    outline: none;
+    }
+    .slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 20px;
+    height:20px;
+    background: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    .slider input[type="range"]::-webkit-slider-thumb:hover {
+    background: black;
+    }
+   
